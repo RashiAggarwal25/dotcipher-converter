@@ -23,8 +23,8 @@
       background-color: black;
     }
     .dot {
-      width: 8px;
-      height: 8px;
+      width: 10px;
+      height: 10px;
       background-color: black;
       border-radius: 50%;
       position: absolute;
@@ -39,18 +39,18 @@
 
   <script>
     const dotPositions = {
-      1: [4, 4],       // top-left
-      2: [36, 4],      // top-center
-      3: [68, 4],      // top-right
-      4: [4, 28],
-      5: [68, 28],
-      6: [4, 40],
-      7: [68, 40],
-      8: [4, 52],
-      9: [68, 52],
-      10: [4, 68],     // bottom-left
-      11: [36, 68],    // bottom-center
-      12: [68, 68]     // bottom-right
+      1: [-10, -10],       // top-left
+      2: [35, -10],        // top-center
+      3: [80, -10],        // top-right
+      4: [-10, 28],        // mid-left top
+      5: [80, 28],         // mid-right top
+      6: [-10, 40],        // mid-left center
+      7: [80, 40],         // mid-right center
+      8: [-10, 52],        // mid-left bottom
+      9: [80, 52],         // mid-right bottom
+      10: [-10, 80],       // bottom-left
+      11: [35, 80],        // bottom-center
+      12: [80, 80]         // bottom-right
     };
 
     const cipherMap = {
